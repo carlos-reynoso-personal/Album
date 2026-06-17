@@ -1,0 +1,19 @@
+{
+    "titulo": "Visita a mis abuelos 🧑🏻‍🦳👩🏻‍🦳",
+    "fecha": "27 Agosto 2023",
+    "descripcion": "Fue la primera vez que fuimos a casa de mis abuelos ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Me gustó mucho tu compañía ❤️"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "Me acuedo que caminamos bien mucho 🚶🏽🚶🏻‍♀️"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Y encontramos este paisaje ✨🍃"
+        }
+    ]
+}

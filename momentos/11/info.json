@@ -1,0 +1,19 @@
+{
+    "titulo": "Fiesta Disco 🪩",
+    "fecha": "09 Septiembre 2023",
+    "descripcion": "Una de las primeras fiestas a las que ibamos ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Estabamos muy emocionados ❤️"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "Me la pase muy agusto contigo, era algo nuevo para mí ✨"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Estuvo bombisima 🥳"
+        }
+    ]
+}

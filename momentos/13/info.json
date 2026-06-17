@@ -1,0 +1,23 @@
+{
+    "titulo": "Parque Alcalde 🏞️",
+    "fecha": "03 Octubre 2023",
+    "descripcion": "Aquí visitamos por primera vez el parque alcalde ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Ya habíamos cumplido 5 meses de novios 💕"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "Estuvo divertido subirnos a las lanchitas 🚤✨"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Te veias muy feliz 😀❤️"
+        },
+        {
+            "archivo": "foto3.png",
+            "texto": "Y nos encontramos varios patos 🦆"
+        }
+    ]
+}

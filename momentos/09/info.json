@@ -1,0 +1,27 @@
+{
+    "titulo": "Rompecabezas 🧩",
+    "fecha": "05 Agosto 2023",
+    "descripcion": "Este dia empezamos a armar el rompecabezas que te regalé ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Estuvo interesante ir armando este rompecabezas juntos 🧩💓"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "No sabía si te iba a gustar esta actividad ✨"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Nos tomó mucho tiempo, pero al final se logró 🧩💓"
+        },
+        {
+            "archivo": "foto3.png",
+            "texto": "Lo mejor de todo fue que me desperté con esta preciosa a mi lado ✨"
+        },
+        {
+            "archivo": "foto4.png",
+            "texto": "Creo que fue la primera vez que nos quedamos a dormir juntos ❤️"
+        }
+    ]
+}

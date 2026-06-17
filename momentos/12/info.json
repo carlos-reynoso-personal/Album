@@ -1,0 +1,23 @@
+{
+    "titulo": "Covas Pizza 🍕",
+    "fecha": "24 Septiembre 2023",
+    "descripcion": "Fue la primera vez que probamos estas pizzas ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Se veía muy bonito 🍕"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "Me la pase muy bien ✨"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Me gusto mucho todo 🍕"
+        },
+        {
+            "archivo": "foto3.png",
+            "texto": "Sobre todo la compañía 💓"
+        }
+    ]
+}
