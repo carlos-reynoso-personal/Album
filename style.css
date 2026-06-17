@@ -283,18 +283,16 @@ h1{
     }
 
     .momento::after{
-        left:11px !important;
+        left:-13px !important;
         right:auto;
     }
 
     h1{
-        font-size:1.8rem;
+        font-size:1.6rem;
     }
 
     .contador{
-        width:90%;
-        max-width:350px;
-        font-size:1rem;
+        font-size:1.1rem;
     }
 
     .prev,
@@ -304,9 +302,7 @@ h1{
     }
 
     .modal img{
-        width:100%;
-        max-width:100%;
-        max-height:70vh;
+        max-width:95%;
     }
 
     .carta-final{
