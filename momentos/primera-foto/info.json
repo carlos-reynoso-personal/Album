@@ -1,0 +1,11 @@
+{
+    "titulo": "Primera Foto ❤️",
+    "fecha": "02 Junio 2022",
+    "descripcion": "Nuestra primera foto juntos ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Nuestra primera foto cuando aún eramos amigos ❤️"
+        }
+    ]
+}

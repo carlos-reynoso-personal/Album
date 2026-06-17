@@ -1,0 +1,23 @@
+{
+    "titulo": "Primera cita ❤️",
+    "fecha": "14 Febrero 2024",
+    "descripcion": "Nuestro primer día juntos ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Portada"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Nuestra primera foto ❤️"
+        },
+        {
+            "archivo": "foto2.jpg",
+            "texto": "Ese día fue mágico ✨"
+        },
+        {
+            "archivo": "foto3.jpg",
+            "texto": "Nunca olvidaré tu sonrisa 💖"
+        }
+    ]
+}

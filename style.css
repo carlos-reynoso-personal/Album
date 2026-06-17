@@ -1,0 +1,317 @@
+body{
+    margin:0;
+    font-family:'Georgia', serif;
+    background:
+    linear-gradient(
+        to bottom,
+        #ffdce5,
+        #fff
+    );
+    color:#5c2b3a;
+}
+
+/* TITULO */
+
+h1{
+    text-align:center;
+    padding:40px 20px 10px;
+    font-size:3rem;
+}
+
+/* CONTADOR */
+
+.contador{
+    text-align:center;
+    font-size:1.3rem;
+    margin-bottom:40px;
+    color:#d6336c;
+    font-weight:bold;
+}
+
+/* TIMELINE */
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+/* LINEA CENTRAL */
+
+.timeline::after{
+    content:'';
+    position:absolute;
+    width:4px;
+    background:#ff7aa2;
+    top:0;
+    bottom:0;
+    left:50%;
+    margin-left:-2px;
+}
+
+/* MOMENTOS */
+
+.momento{
+    padding:20px 40px;
+    position:relative;
+    width:50%;
+    box-sizing:border-box;
+
+    opacity:0;
+    transform:translateY(40px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+
+.momento.visible{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* PUNTOS DE LA TIMELINE */
+
+.momento::after{
+    content:'';
+    position:absolute;
+    width:18px;
+    height:18px;
+    background:#ff4f81;
+    border:4px solid white;
+    border-radius:50%;
+    top:35px;
+    z-index:10;
+}
+
+.momento:nth-child(odd)::after{
+    right:-13px;
+}
+
+.momento:nth-child(even)::after{
+    left:-13px;
+}
+
+/* IZQUIERDA */
+
+.momento:nth-child(odd){
+    left:0;
+}
+
+/* DERECHA */
+
+.momento:nth-child(even){
+    left:50%;
+}
+
+/* TARJETA */
+
+.contenido{
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.contenido:hover{
+    transform:scale(1.03);
+}
+
+/* FECHA */
+
+.fecha{
+    font-size:1.2rem;
+    color:#ff4f81;
+    font-weight:bold;
+}
+
+/* TITULO DEL MOMENTO */
+
+.contenido h2{
+    margin:10px 0;
+    color:#d6336c;
+}
+
+/* IMAGEN */
+
+.contenido img{
+    width:100%;
+    margin-top:10px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contenido img:hover{
+    opacity:0.9;
+}
+
+/* MODAL */
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1000;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.92);
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    animation:fadeIn 0.3s;
+}
+
+.modal-contenido{
+    position:relative;
+    width:90%;
+    max-width:1000px;
+}
+
+.modal img{
+    max-width:90%;
+    max-height:80vh;
+    display:block;
+    margin:auto;
+    border-radius:20px;
+    transition:.4s;
+    box-shadow:
+    0 0 25px rgba(255,255,255,0.2);
+}
+
+/* TEXTO */
+
+.descripcion{
+    color:white;
+    margin-top:20px;
+    text-align:center;
+    font-size:1.2rem;
+    padding:0 20px;
+}
+
+/* INDICADOR */
+
+.indicador{
+    color:white;
+    text-align:center;
+    margin-top:10px;
+    font-size:1rem;
+}
+
+/* CERRAR */
+
+.cerrar{
+    position:absolute;
+    top:20px;
+    right:40px;
+    color:white;
+    font-size:45px;
+    cursor:pointer;
+    z-index:1001;
+}
+
+/* FLECHAS */
+
+.prev,
+.next{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:50px;
+    color:white;
+    cursor:pointer;
+    user-select:none;
+    padding:15px;
+}
+
+.prev{
+    left:-70px;
+}
+
+.next{
+    right:-70px;
+}
+
+/* CARTA FINAL */
+
+.carta-final{
+    max-width:800px;
+    margin:80px auto;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.carta-final h2{
+    color:#d6336c;
+}
+
+.carta-final p{
+    font-size:1.1rem;
+    line-height:1.6;
+}
+
+/* ANIMACION */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:768px){
+
+    .timeline::after{
+        left:20px;
+    }
+
+    .momento{
+        width:100%;
+        padding-left:60px;
+        padding-right:20px;
+    }
+
+    .momento:nth-child(even){
+        left:0;
+    }
+
+    .momento::after{
+        left:11px !important;
+        right:auto;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .contador{
+        font-size:1.1rem;
+    }
+
+    .prev{
+        left:10px;
+    }
+
+    .next{
+        right:10px;
+    }
+
+    .prev,
+    .next{
+        font-size:35px;
+    }
+
+    .modal img{
+        max-width:95%;
+    }
+}
