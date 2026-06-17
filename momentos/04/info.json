@@ -1,0 +1,19 @@
+{
+    "titulo": "Foto de la generación ❤️",
+    "fecha": "08 Mayo 2023",
+    "descripcion": "Este dia nos tomaron las fotos de la generación  ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Nos vemos bien guapos ❤️"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Teniamos 5 dias de novios 💖"
+        },
+        {
+            "archivo": "foto2.webp",
+            "texto": "Me gustó mucho compartir ese momento contigo ✨"
+        }
+    ]
+}

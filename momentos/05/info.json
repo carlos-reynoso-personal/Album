@@ -1,0 +1,19 @@
+{
+    "titulo": "Presentación de danza ❤️",
+    "fecha": "27 Mayo 2023",
+    "descripcion": "Esta fue la primera vez que te vi bailar en público ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Me gustó mucho acompañarte ese dia 💖"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Me encanta tu sonrisa ✨"
+        },
+        {
+            "archivo": "foto2.jpg",
+            "texto": "Tuviste muchos espectadores ese dia 🎊"
+        }
+    ]
+}

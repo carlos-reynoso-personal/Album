@@ -1,0 +1,27 @@
+{
+    "titulo": "Fiesta de graduación ❤️",
+    "fecha": "07 Julio 2023",
+    "descripcion": "Aqui estabamos en nuestra fiesta de graduación ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Nos veiamos bien elegantes y guapos ✨"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Nos veiamos bien elegantes y guapos ✨"
+        },
+        {
+            "archivo": "foto2.jpg",
+            "texto": "Nos veiamos bien elegantes y guapos ✨"
+        },
+        {
+            "archivo": "foto3.jpg",
+            "texto": "Estabamos muy emocionados ❤️"
+        },
+        {
+            "archivo": "foto4.jpg",
+            "texto": "Y muy felices desde antes de llegar 💖"
+        }
+    ]
+}

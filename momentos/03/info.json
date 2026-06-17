@@ -1,11 +1,15 @@
 {
     "titulo": "Primera cita ❤️",
-    "fecha": "08 Abril 2022",
+    "fecha": "08 Abril 2023",
     "descripcion": "Nuestra primera salida juntos ✨",
     "imagenes": [
         {
             "archivo": "portada.jpg",
             "texto": "Este dia fuimos al puente de las damas ❤️"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Adjunto foto de ti con el mamut en el museo regional 🦣"
         }
     ]
 }

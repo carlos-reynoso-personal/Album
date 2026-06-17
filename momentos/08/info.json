@@ -1,0 +1,23 @@
+{
+    "titulo": "Salida a galex 🎮",
+    "fecha": "19 Julio 2023",
+    "descripcion": "Este dia fuimos a belenes a jugar ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Nos vemos muy lindos juntos 💖"
+        },
+        {
+            "archivo": "foto1.png",
+            "texto": "Todavía recuerdo la sensación de ese beso 💕"
+        },
+        {
+            "archivo": "foto2.png",
+            "texto": "Me la pase muy bieen ✨"
+        },
+        {
+            "archivo": "foto3.png",
+            "texto": "Te venias muy entretenida 😂❤️"
+        }
+    ]
+}

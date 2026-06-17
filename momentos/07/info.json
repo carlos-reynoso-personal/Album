@@ -1,0 +1,27 @@
+{
+    "titulo": "Graduación 🎓",
+    "fecha": "13 Julio 2023",
+    "descripcion": "Aqui fuimos a nuestro acto academico ✨",
+    "imagenes": [
+        {
+            "archivo": "portada.jpg",
+            "texto": "Me gusto mucho estar contigo ese día ❤️"
+        },
+        {
+            "archivo": "foto1.jpg",
+            "texto": "Adjunto foto de la guapisima graduada 👩🏻‍🎓 "
+        },
+        {
+            "archivo": "foto2.jpg",
+            "texto": "Adjunto foto del graduado 🧑🏽‍🎓"
+        },
+        {
+            "archivo": "foto3.jpg",
+            "texto": "Estuvo chido ese dia 🎓"
+        },
+        {
+            "archivo": "foto4.jpg",
+            "texto": "Me la pase bien bomba 🤘🏼"
+        }
+    ]
+}

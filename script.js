@@ -1,8 +1,13 @@
 const carpetas = [
-    "cuando-te-conoci",
-    "primera-foto",
-    "primera-salida"
-];
+    "01", "02", "03", "inicio","04", "05", "06",
+    "07", "08"
+    ];
+    
+    /*
+    const carpetas = [
+        "08"
+    ]
+    */
 
 const timeline = document.getElementById("timeline");
 
